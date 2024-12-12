@@ -1,4 +1,4 @@
-python-socketio==5.3.0
+python-socketio==5.11.3
 uvicorn
 nest-asyncio
 requests

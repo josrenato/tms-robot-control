@@ -106,6 +106,10 @@ class RobotControl:
         else:
             self.robot.disable_free_drive()
 
+    def OnAuto(self, data):
+        print("deu certo!")
+
+
     def OnSetTrackerFiducials(self, data):
         # TODO: This shouldn't call the constructor again but instead a separate reset method.
         self.process_tracker.__init__(
